@@ -1,4 +1,4 @@
-# NestleApp
+# Scala-ETL-Example
 
 O projeto visa simular o processo de uma ETL bem simplificadamente. A escolha de usar Scala e Spark é a alta performance com o tratamento de dados em um ambiente de big data, e dessa forma podemos trazer mais valor agregado aos jobs que rodam em nuvem e também mais eficiência na geração dos dados e suas pipelines.
 
