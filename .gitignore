@@ -92,15 +92,6 @@ sql/hive-thriftserver/test_warehouses
 warehouse/
 spark-warehouse/
 
-# For R session data
-.RData
-.RHistory
-.Rhistory
-*.Rproj
-*.Rproj.*
-
-.Rproj.user
-
 # For SBT
 .jvmopts
 .blob/
