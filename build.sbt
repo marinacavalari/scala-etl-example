@@ -1,4 +1,4 @@
-name := "Nestle"
+name := "ScalaEtlExample"
 version := "1.0"
 scalaVersion := "2.12.10"
 val sparkVersion = "3.0.0-preview2"
