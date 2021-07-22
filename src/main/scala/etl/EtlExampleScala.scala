@@ -3,7 +3,7 @@ import org.apache.spark.sql._
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs.{FileSystem, FileUtil, Path}
 
-object EtlExampleScala extends App with SparkSessionProvider {
+object EtlExampleScalaApp extends App with SparkSessionProvider {
 
   val resourcePath: String = "src/main/resources/"
   val filepath: String     = "src/main/data/"
