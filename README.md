@@ -16,5 +16,5 @@ sbt clean assembly
 ```
 
 ```bash
-spark-submit target/scala-2.12/nestle_2.12-1.0.jar --packages com.crealytics:spark-excel_2.12:0.13.7 --class=etl.NestleApp
+spark-submit target/scala-2.12/ScalaEtlExample_2.12-1.0.jar --packages com.crealytics:spark-excel_2.12:0.13.7 --class=etl.ScalaEtlExample
 ```
