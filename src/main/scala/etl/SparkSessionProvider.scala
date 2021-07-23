@@ -9,7 +9,7 @@ trait SparkSessionProvider {
     val builder = SparkSession
       .builder()
       .master(s"local[$numberCpus]")
-      .appName("EtlScalaExample")
+      .appName("etlExampleScala")
 
     availableMemoryMaybe.foreach { availableMemory =>
       builder.config("spark.driver.memory", s"{availableMemory}m")
